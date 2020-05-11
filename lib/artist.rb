@@ -9,6 +9,6 @@ class Artist
     @@all 
   end 
   def new_song(name)
-    
+    Song.new
     
 end 
