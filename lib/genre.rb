@@ -5,6 +5,9 @@ class Genre
     @name = name 
     @@all << self 
   end 
+  def self.all
+    @@all 
+  end 
   def songs 
     Song.select{|song| song.genre}
   end 
