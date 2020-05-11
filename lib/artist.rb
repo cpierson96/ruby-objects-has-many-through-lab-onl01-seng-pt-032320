@@ -4,5 +4,9 @@ class Artist
     @name = name 
     save 
   end 
+  def self.all 
+    @@all << self 
+    
+  end 
   
 end 
